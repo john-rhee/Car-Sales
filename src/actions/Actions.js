@@ -1,5 +1,6 @@
-export const ADD_FEAT = 'ADD_FEAT';
-export const addFeat = feat => {
-  
-  return { type: ADD_FEAT, payload: feat};
+export const ADD_FEATURE = 'ADD_FEATURE';
+
+export const addFeature = argument => {
+  return { type: ADD_FEATURE, payload: argument };
 };
+
