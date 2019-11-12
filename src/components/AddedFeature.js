@@ -1,6 +1,6 @@
 import React from 'react';
 
-const AddedFeature = props => {
+const AddedFeatures = props => {
   return (
     <li>
       {/* Add an onClick to run a function to remove a feature */}
@@ -10,4 +10,4 @@ const AddedFeature = props => {
   );
 };
 
-export default AddedFeature;
+export default AddedFeatures;
